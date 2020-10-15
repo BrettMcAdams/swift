@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/027/953/476/large/dubs-design-swift-logo-white.jpg?1593053277");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: #094F80;
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.home__headerRight > .MuiSvgIcon-root {
+    margin-right: 20px;
+    color: #094F80;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
